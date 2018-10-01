@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14135" systemVersion="17G65" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="List" representedClassName=".List" syncable="YES">
+        <attribute name="dateOfListSub" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nameOfList" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="planingMoney" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="surplusMoney" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="usedMoney" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <entity name="ThingInList" representedClassName=".ThingInList" syncable="YES">
+        <attribute name="dateOfList" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="thingAfterCountPrice" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="thingInitialPrice" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="thingInListID" attributeType="String" syncable="YES"/>
+        <attribute name="thingInListName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="thingIsComplete" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="thingNumberOfThing" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="thingSalePrice" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="List" positionX="-63" positionY="-18" width="128" height="120"/>
+        <element name="ThingInList" positionX="-54" positionY="-9" width="128" height="165"/>
+    </elements>
+</model>
